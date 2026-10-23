@@ -42,3 +42,10 @@ next-env.d.ts
 
 # Local backups
 /app_backup_20260917_155459/
+
+# OpenNext and Cloudflare build files
+.open-next/
+.wrangler/
+.dev.vars
+.env*
+!.env.example
